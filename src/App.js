@@ -1,7 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Button from 'react-bootstrap/Button'
+//import Button from 'react-bootstrap/Button'
 import Home from './Pages/Home'
 import News from './Pages/News'
 import Reviews from './Pages/Reviews'
