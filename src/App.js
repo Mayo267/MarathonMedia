@@ -1,7 +1,8 @@
 import './App.css';
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.min.css'
-//import Button from 'react-bootstrap/Button'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.css'
+
+import NavBar from './Components/Navbar'
 import Home from './Pages/Home'
 import News from './Pages/News'
 import Reviews from './Pages/Reviews'
@@ -14,13 +15,8 @@ function App() {
   return ( 
     <Router>
      {/* Navbar here */}
-      <Link to="/"> Home </Link>
-      <Link to="/News"> News </Link>
-      <Link to="/Reviews"> Reviews </Link>
-      <Link to="/Contact"> Contact </Link>
-      <Link to="/Login"> Login </Link>
-      <Link to="/Signup"> Signup </Link>
-      <Link to="/Profile"> Profile </Link>
+      <NavBar/>
+    
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/News" element={<News/>} />
