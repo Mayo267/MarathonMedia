@@ -1,7 +1,7 @@
 import React from "react";
 function Reviews() {
     return(
-        <div>
+        <div className="reviews_page back-drop">
             Reviews Page
         </div>
     )

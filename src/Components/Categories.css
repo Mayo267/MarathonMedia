@@ -1,0 +1,14 @@
+.category-link{
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.category-link:hover{
+    color: #e00241;
+    font-weight: bolder;
+}
+
+.category-link:focus{
+    color: #ed003f;
+}

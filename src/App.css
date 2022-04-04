@@ -1,3 +1,11 @@
 .App {
   text-align: center;
 }
+
+html{
+  background-color: darkslategrey;
+}
+
+.back-drop{
+  background-color: lightslategrey;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 function News() {
     return(
-        <div>
+        <div className="news_page back-drop">
             News Page
         </div>
     )

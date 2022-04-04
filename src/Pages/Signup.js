@@ -1,7 +1,7 @@
 import React from "react";
 function Signup() {
     return(
-        <div>
+        <div className="signup_page back-drop">
             Signup Page
         </div>
     )

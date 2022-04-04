@@ -1,7 +1,7 @@
 import React from "react";
 function Contact() {
     return(
-        <div>
+        <div className="contact_page back-drop">
             Contact Page
         </div>
     )

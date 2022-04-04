@@ -14,7 +14,6 @@ import Profile from './Pages/Profile';
 function App() {
   return ( 
     <Router>
-     {/* Navbar here */}
       <NavBar/>
     
       <Routes>
